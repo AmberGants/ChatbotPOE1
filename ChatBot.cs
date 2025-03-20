@@ -51,6 +51,36 @@ class Program
     {
         Console.WriteLine("I am just program, but Im here to help you!.");
     }
+        //QUESTIONS A USER MIGHT ASK
+    switch (userInput)
+    {
+        case "what's your purpose?":
+            Console.WriteLine("You can ask me about password safety, phishing, and safe browsing.");
+         break;
+        case "how can i create a strong password?":
+            Console.WriteLine("Use a mix of letters, numbers, and symbols, and avoid using easily guessable information.");
+            break;
+        case "what is phishing and how can i avoid it?":
+            Console.WriteLine("Phishing is a scam where attackers impersonate legitimate entities to steal personal information. Always verify the source before clicking links.");
+            break;
+        case "how can i browse the internet safely?":
+            Console.WriteLine("Use secure websites (look for HTTPS), avoid public Wi-Fi for sensitive transactions, and keep your software updated.");
+            break;
+        case "tell me about password safety":
+            Console.WriteLine("Always use strong passwords, change them regularly, and never share them.");
+            break;
+        case "what is phishing?":
+            Console.WriteLine("Phishing is a method used by cybercriminals to trick you into giving them your personal information.");
+            break;
+        case "how to browse safely?":
+            Console.WriteLine("Use secure websites (https), avoid public Wi-Fi for sensitive transactions, and keep your software updated.");
+            break;
+        default:
+            Console.WriteLine("I didn't quite understand that. Could you rephrase?");
+            break;
+    }
+
+}
     }
     
 }
