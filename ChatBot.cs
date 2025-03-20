@@ -15,8 +15,8 @@ class Program
 
         StartChatBot();
         
-        // 4 BASIC RESPONCE SYSTEM
-        //5 VALIDATE INPUT
+       
+        
         //6 ENHANCED CONSOLE UI WITH VISUAL ELEMENTS 
     }
 //3 TEXT-BASED GREETING AND USER INTERACTION
@@ -51,7 +51,8 @@ class Program
     {
         Console.WriteLine("I am just program, but Im here to help you!.");
     }
-        //QUESTIONS A USER MIGHT ASK
+    // 4 BASIC RESPONCE SYSTEM & 5 VALIDATE INPUT
+        //Questions a user might ask
     switch (userInput)
     {
         case "what's your purpose?":
