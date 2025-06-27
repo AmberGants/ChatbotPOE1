@@ -1,0 +1,6 @@
+git tag v1.0 -m "Initial chatbot and GUI layout"
+git tag v1.1 -m "Added NLP keyword + emotional sentiment responses"
+git tag v1.2 -m "Integrated reminder system and task assistant"
+git tag v1.3 -m "Quiz mini-game with GUI support"
+git tag v1.4 -m "Added activity log feature"
+git tag v1.5 -m "Final version: fully integrated GUI with chatbot, quiz, tasks, NLP"
